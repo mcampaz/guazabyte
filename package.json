@@ -1,0 +1,10 @@
+{
+  "name": "guazabyte",
+  "version": "1.0.0",
+  "description": "Guazabyte startup, past and current projects",
+  "main": "index.js",
+  "repository": "https://github.com/mcampaz/guazabyte.git",
+  "author": "MARIO CAMPAZ <mcampaz@users.noreply.github.com>",
+  "license": "None",
+  "private": true
+}
