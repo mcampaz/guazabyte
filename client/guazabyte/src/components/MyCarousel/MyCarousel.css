@@ -32,50 +32,65 @@
 }  */
 
 .carousel {
-    width: 100%;
-    height: 650px;
-
+  width: 100%;
+  height: 100vh;
 }
 
 .carousel .carouselInner {
-    height: 100%;
-    width: 100%;
-    /* max-width: calc((100vh - 300px)*333/500); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
+  height: 100%;
+  width: 100%;
+  /* max-width: calc((100vh - 300px)*333/500); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  position: relative;
 }
 
 .carouselInner .left {
-    flex: 4%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.03);
-    display: grid;
-    align-items: center;
-    cursor: pointer;
+  flex: 4%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.03);
+  display: grid;
+  align-items: center;
+  cursor: pointer;
+  z-index: 20;
 }
 
 .carouselInner .center {
-    flex: 92%;
-    height: 100%;
+  flex: 92%;
+  height: 100%;
 }
 
 .carouselInner .right {
-    flex: 4%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.03);
-    display: grid;
-    align-items: center;
-    cursor: pointer;
+  flex: 4%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.03);
+  display: grid;
+  align-items: center;
+  cursor: pointer;
+  z-index: 20;
 }
 
 .forward {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
 }
 
 .backwards {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.contentCarousel {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.15);
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  z-index: 10;
 }

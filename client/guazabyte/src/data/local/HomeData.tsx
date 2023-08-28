@@ -1,30 +1,47 @@
-export const HomeData = [ 
-    {
-      id: 'home10',
-      the_path: '../../assets/projects/home/',
-      picture: 'home10.JPG',
-      original: require('../../assets/projects/home/home10.JPG'),
-      thumbnail: require('../../assets/projects/home/home10.JPG'),
-      title: 'HOME',
-      location: '@Barranquilla',
-    }, 
-    {
-      id: 'home11',
-      the_path: '../../assets/projects/home/',
-      picture: 'home11.JPG',
-      original: require('../../assets/projects/home/home11.JPG'),
-      thumbnail: require('../../assets/projects/home/home11.JPG'),
-      title: 'HOME',
-      location: '@Barranquilla',
-    },
-    {
-        id: 'home12',
-        the_path: '../../assets/projects/home/',
-        picture: 'home12.JPG',
-        original: require('../../assets/projects/home/home12.JPG'),
-        thumbnail: require('../../assets/projects/home/home12.JPG'),
-        title: 'HOME',
-        location: '@Barranquilla',
-      }
-    ]
-    
+export const HomeData = [
+  {
+    id: "home01",
+    the_path: "../../assets/projects/home/",
+    picture: "001.png",
+    original: require("../../assets/projects/home/001.png"),
+    thumbnail: require("../../assets/projects/home/001.png"),
+    title: "HOME",
+    location: "@Barranquilla",
+  },
+  {
+    id: "home02",
+    the_path: "../../assets/projects/home/",
+    picture: "002.png",
+    original: require("../../assets/projects/home/002.png"),
+    thumbnail: require("../../assets/projects/home/002.png"),
+    title: "HOME",
+    location: "@Barranquilla",
+  },
+  {
+    id: "home03",
+    the_path: "../../assets/projects/home/",
+    picture: "003.png",
+    original: require("../../assets/projects/home/003.png"),
+    thumbnail: require("../../assets/projects/home/003.png"),
+    title: "HOME",
+    location: "@Barranquilla",
+  },
+  {
+    id: "home04",
+    the_path: "../../assets/projects/home/",
+    picture: "004.png",
+    original: require("../../assets/projects/home/004.png"),
+    thumbnail: require("../../assets/projects/home/004.png"),
+    title: "HOME",
+    location: "@Barranquilla",
+  },
+  {
+    id: "home05",
+    the_path: "../../assets/projects/home/",
+    picture: "004.png",
+    original: require("../../assets/projects/home/005.png"),
+    thumbnail: require("../../assets/projects/home/005.png"),
+    title: "HOME",
+    location: "@Barranquilla",
+  },
+];
