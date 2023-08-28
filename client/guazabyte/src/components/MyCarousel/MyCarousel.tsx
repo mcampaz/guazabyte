@@ -82,7 +82,7 @@ const MyCarousel = (props) => {
         >
           <div className="contentCarousel">
             <Typography variant="h1" gutterBottom>
-              <strong>Guazabyte</strong>
+              <strong>GuazaByte</strong>
             </Typography>
             <Typography variant="h4">
               <strong>2004 Burroughs St</strong>
