@@ -1,15 +1,11 @@
 import * as React from 'react';
 import './App.css';
+import MainLayout from './views/layouts/MainLayout';
 
 export default function App() {
   return (
-    <div className="App">
-      
-       
-        
-      <h1>GuazaByte!!!</h1>  
-          
-      
+    <div className="App"> 
+      <MainLayout>GuazaByte!!! </MainLayout> 
     </div>
   );
 }

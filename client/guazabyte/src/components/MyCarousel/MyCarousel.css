@@ -1,0 +1,81 @@
+/* @media (min-width: 240px) and (max-width: 450px) {
+    img {
+        max-width: 100vw;
+        width: 100%;    }
+}
+
+@media (min-width: 451px) and (max-width: 1024px) {
+    img {
+        width: 50vw;
+        max-width: 50vw;
+        height: 80vh;
+        max-height: 90vh;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1516px) {
+    img {
+        width: 60vh;
+        max-width: 60vh;
+        height: 80vh;
+        max-height: 80vh;
+    }
+}
+
+@media (min-width: 1516px) {
+    img {
+        width: 70vh;
+        max-width: 70vh;
+        height: 90vh;
+        max-height: 90vh;
+    }
+}  */
+
+.carousel {
+    width: 100%;
+    height: 650px;
+
+}
+
+.carousel .carouselInner {
+    height: 100%;
+    width: 100%;
+    /* max-width: calc((100vh - 300px)*333/500); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.carouselInner .left {
+    flex: 4%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.03);
+    display: grid;
+    align-items: center;
+    cursor: pointer;
+}
+
+.carouselInner .center {
+    flex: 92%;
+    height: 100%;
+}
+
+.carouselInner .right {
+    flex: 4%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.03);
+    display: grid;
+    align-items: center;
+    cursor: pointer;
+}
+
+.forward {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.backwards {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}

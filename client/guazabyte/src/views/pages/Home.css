@@ -1,0 +1,33 @@
+.maxCard {
+    max-width: 900px;
+    max-height: 1200px;
+    padding-left: 10px;
+}
+
+.maxCard-carousel {
+    max-width: 900px;
+    max-height: 1200px;
+    padding-left: 10px; 
+}
+
+.my_carousel {
+    
+}
+
+a.youtube {
+    color: #eb3223;
+  }
+  
+  a.facebook {
+    color: #4968ad;
+  }
+  
+  a.twitter {
+    color: #49a1eb;
+  }
+  
+  a.instagram {
+    color: white;
+    padding-left: 10px;
+  }
+
